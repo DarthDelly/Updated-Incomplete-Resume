@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.photo {
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/*--LEFTPAD--*/
+.column {
+    float: left;
+    width: 50%;
+    background-color: rgb(160, 129, 46);
+    padding: 10xp;
+    height: 300px;
+}
+.detail {
+    margin-left: 5%;
+}
+table, th, td {
+    border:  1px solid;
+    width: 90%;
+}
+div.icon1 img {
+    width: 10%;
+}
+div.icon2 img {
+    width: 10%;
+}
+/*-----*/
+
+/*--RightPad--*/
+div.name {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 30%;
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 60%;
+} 
+.row {
+    background-color: white;
+    content: "";
+    display: table;
+    clear: both ;
+}
+.move {
+    margin-left: 5%;
+}
